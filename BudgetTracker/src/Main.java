@@ -25,7 +25,7 @@ public class Main {
                     System.out.println("Income amount: ");
                     double amount = scanner.nextDouble();
 
-                    Incomes income = new Incomes("" + description, + amount);
+                    Incomes income = new Incomes(description, + amount);
                     budgetTracker.addIncome(income);
 
                     System.out.println("Income added successfully.");
@@ -37,7 +37,7 @@ public class Main {
                     System.out.println("Expense amount: ");
                     double amount = scanner.nextDouble();
 
-                    Expenses expense = new Expenses("" + description, + amount);
+                    Expenses expense = new Expenses(description, + amount);
                     budgetTracker.addExpense(expense);
 
                     System.out.println("Expense added successfully.");
